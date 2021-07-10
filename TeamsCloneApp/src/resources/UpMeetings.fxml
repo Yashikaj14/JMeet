@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="primaryPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #858DF1;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.UpcomingMeetingController">
+   <children>
+      <ListView fx:id="meetingListView" layoutY="45.0" prefHeight="554.0" prefWidth="253.0" />
+      <Label fx:id="titleLabel" layoutX="323.0" layoutY="67.0" prefHeight="18.0" prefWidth="306.0" text="Title" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="dateLabel" layoutX="323.0" layoutY="126.0" prefHeight="27.0" prefWidth="171.0" text="Date" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="timeLabel" layoutX="517.0" layoutY="126.0" prefHeight="27.0" prefWidth="171.0" text="Time" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="23.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="detailArea" editable="false" layoutX="323.0" layoutY="222.0" prefHeight="146.0" prefWidth="395.0" promptText="Details" wrapText="true">
+         <font>
+            <Font name="Times New Roman" size="12.0" />
+         </font>
+      </TextArea>
+      <Hyperlink fx:id="meetingLink" layoutX="448.0" layoutY="418.0" onAction="#onLinkClicked" prefHeight="27.0" prefWidth="254.0" text="Hyperlink" textFill="#6c00ff">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="19.0" />
+         </font>
+      </Hyperlink>
+      <Label layoutX="323.0" layoutY="418.0" prefHeight="27.0" prefWidth="70.0" text="Link" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="23.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#464eb8" height="46.0" stroke="BLACK" strokeType="INSIDE" width="800.0" />
+      <Label alignment="CENTER" layoutX="240.0" layoutY="9.0" prefHeight="18.0" prefWidth="306.0" text="Upcoming Meetings" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="23.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

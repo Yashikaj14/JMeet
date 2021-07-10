@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="teamData.sqlite">
+  <database-model serializer="dbm" dbms="SQLITE" family-id="SQLITE" format-version="4.19">
+    <root id="1">
+      <ServerVersion>3.34.0</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="main">
+      <Current>1</Current>
+    </schema>
+    <collation id="3" parent="1" name="BINARY"/>
+    <collation id="4" parent="1" name="NOCASE"/>
+    <collation id="5" parent="1" name="RTRIM"/>
+    <table id="6" parent="2" name="meetings"/>
+    <table id="7" parent="2" name="messages"/>
+    <table id="8" parent="2" name="notifications"/>
+    <table id="9" parent="2" name="online_users"/>
+    <table id="10" parent="2" name="sqlite_master">
+      <System>1</System>
+    </table>
+    <table id="11" parent="2" name="sqlite_sequence">
+      <System>1</System>
+    </table>
+    <table id="12" parent="2" name="statuses"/>
+    <table id="13" parent="2" name="user_profile"/>
+    <table id="14" parent="2" name="users"/>
+    <column id="15" parent="6" name="_id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="16" parent="6" name="title">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="17" parent="6" name="host_id">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="18" parent="6" name="meeting_link">
+      <Position>4</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="19" parent="6" name="date">
+      <Position>5</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="20" parent="6" name="time">
+      <Position>6</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="21" parent="6" name="details">
+      <Position>7</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <key id="22" parent="6">
+      <ColNames>_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="23" parent="7" name="_id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="24" parent="7" name="sender_id">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="25" parent="7" name="receiver_id">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="26" parent="7" name="message">
+      <Position>4</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="27" parent="7" name="date">
+      <Position>5</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="28" parent="7" name="time">
+      <Position>6</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="29" parent="7" name="is_read">
+      <Position>7</Position>
+      <DataType>integer|0s</DataType>
+    </column>
+    <key id="30" parent="7">
+      <ColNames>_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="31" parent="8" name="_id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="32" parent="8" name="sender_id">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="33" parent="8" name="receiver_id">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="34" parent="8" name="message">
+      <Position>4</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="35" parent="8" name="date">
+      <Position>5</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="36" parent="8" name="time">
+      <Position>6</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="37" parent="8" name="is_read">
+      <Position>7</Position>
+      <DataType>integer|0s</DataType>
+    </column>
+    <key id="38" parent="8">
+      <ColNames>_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="39" parent="9" name="_id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="40" parent="9" name="user_id">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="41" parent="9" name="user_ip">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <key id="42" parent="9">
+      <ColNames>_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="43" parent="10" name="type">
+      <Position>1</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="44" parent="10" name="name">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="45" parent="10" name="tbl_name">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="46" parent="10" name="rootpage">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="47" parent="10" name="sql">
+      <Position>5</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="48" parent="11" name="name">
+      <Position>1</Position>
+    </column>
+    <column id="49" parent="11" name="seq">
+      <Position>2</Position>
+    </column>
+    <column id="50" parent="12" name="_id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="51" parent="12" name="user_id">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="52" parent="12" name="status">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <index id="53" parent="12" name="sqlite_autoindex_statuses_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>user_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="54" parent="12">
+      <ColNames>_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="55" parent="12">
+      <ColNames>user_id</ColNames>
+      <UnderlyingIndexName>sqlite_autoindex_statuses_1</UnderlyingIndexName>
+    </key>
+    <column id="56" parent="13" name="_id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="57" parent="13" name="user_id">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="58" parent="13" name="phone">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="59" parent="13" name="address">
+      <Position>4</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="60" parent="13" name="about">
+      <Position>5</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="61" parent="13" name="country">
+      <Position>6</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <key id="62" parent="13">
+      <ColNames>_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="63" parent="14" name="_id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="64" parent="14" name="user_id">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="65" parent="14" name="password">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="66" parent="14" name="email">
+      <Position>4</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="67" parent="14" name="firstname">
+      <Position>5</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="68" parent="14" name="lastname">
+      <Position>6</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="69" parent="14" name="organization">
+      <Position>7</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <index id="70" parent="14" name="sqlite_autoindex_users_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>user_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <index id="71" parent="14" name="sqlite_autoindex_users_2">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>email</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="72" parent="14">
+      <ColNames>_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="73" parent="14">
+      <ColNames>user_id</ColNames>
+      <UnderlyingIndexName>sqlite_autoindex_users_1</UnderlyingIndexName>
+    </key>
+    <key id="74" parent="14">
+      <ColNames>email</ColNames>
+      <UnderlyingIndexName>sqlite_autoindex_users_2</UnderlyingIndexName>
+    </key>
+  </database-model>
+</dataSource>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="primaryPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.NotificationViewController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#464eb8" height="46.0" layoutX="1.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" width="800.0" />
+      <Label alignment="CENTER" layoutX="241.0" layoutY="7.0" prefHeight="18.0" prefWidth="306.0" text="Notifications" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="23.0" />
+         </font>
+      </Label>
+      <ListView fx:id="notificationListView" layoutX="-1.0" layoutY="41.0" prefHeight="558.0" prefWidth="802.0" />
+   </children>
+</AnchorPane>

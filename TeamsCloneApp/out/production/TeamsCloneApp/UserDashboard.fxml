@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="primaryPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #858DF1;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.UserDashboardController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#464eb8" height="46.0" layoutY="-3.0" stroke="BLACK" strokeType="INSIDE" width="800.0" />
+      <Button fx:id="scheduleButton" layoutX="14.0" layoutY="52.0" mnemonicParsing="false" onAction="#onScheduleClicked" prefHeight="40.0" prefWidth="152.0" text="Schedule a Meeting">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+<!--      <Button fx:id="logoutButton" layoutX="670.0" layoutY="6.0" mnemonicParsing="false" onAction="#onButtonClicked" style="-fx-background-color: white;" text="Logout">-->
+<!--         <cursor>-->
+<!--            <Cursor fx:constant="HAND" />-->
+<!--         </cursor></Button>-->
+      <Button fx:id="logoutButton" graphicTextGap="0.0" layoutX="709.0" layoutY="7.0" mnemonicParsing="false" onAction="#onButtonClicked" prefHeight="26.0" prefWidth="81.0" style="-fx-background-color: red;" text="Logout" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="201.0" layoutY="52.0" mnemonicParsing="false" onAction="#onMeetingsClicked" prefHeight="40.0" prefWidth="152.0" text="Upcoming Meetings" />
+      <Button layoutX="14.0" layoutY="7.0" mnemonicParsing="false" onAction="#onSearchUserClicked" prefHeight="26.0" prefWidth="95.0" text="Search User" />
+      <Label fx:id="nameLabel" alignment="CENTER" layoutX="86.0" layoutY="335.0" prefHeight="66.0" prefWidth="253.0" text="Name" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="emailLabel" alignment="CENTER" layoutX="79.0" layoutY="459.0" prefHeight="40.0" prefWidth="267.0" text="Email" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="organizationLabel" alignment="CENTER" layoutX="424.0" layoutY="422.0" prefHeight="113.0" prefWidth="304.0" text="Organization" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="userNameLabel" alignment="CENTER" layoutX="442.0" layoutY="343.0" prefHeight="49.0" prefWidth="267.0" text="Username" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="23.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="316.0" layoutY="139.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@dummy.jpg" />
+         </image>
+      </ImageView>
+      <ComboBox fx:id="statusBox" layoutX="607.0" layoutY="52.0" onAction="#setStatusClicked" prefWidth="150.0" promptText="Status" style="-fx-background-color: Transparent;">
+         <effect>
+            <ColorAdjust brightness="1.0" contrast="1.0" hue="1.0" saturation="1.0" />
+         </effect>
+      </ComboBox>
+      <Button layoutX="118.0" layoutY="7.0" mnemonicParsing="false" onAction="#onNotificationsClicked" prefHeight="26.0" prefWidth="95.0" text="Notifications" />
+      <Button layoutX="229.0" layoutY="7.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="95.0" text="Your Chats" />
+      <Label fx:id="notificationLabel" layoutX="201.0" layoutY="1.0" prefHeight="26.0" prefWidth="41.0" text="0" />
+   </children>
+</AnchorPane>
