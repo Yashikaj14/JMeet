@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="video-conf-tutorial.war">
+    <root id="archive" name="video-conf-tutorial-0.0.1-SNAPSHOT.war">
       <element id="artifact" artifact-name="video-conferencing:war exploded" />
     </root>
   </artifact>
