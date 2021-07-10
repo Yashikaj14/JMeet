@@ -1,0 +1,87 @@
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+}
+
+html{
+    font-family: Arial, Garamond, serif;
+    background-image: url("https://image.shutterstock.com/image-vector/light-blue-vector-abstract-bright-260nw-1662747979.jpg");
+    background-size: cover;
+    background-position: center;
+    font-size: 10px;
+}
+
+body{
+    display: grid;
+    place-items: center;
+}
+
+.container{
+
+    width: 100%;
+    height: 110px;
+
+    font-size: 35px;
+    text-align: center;
+    background: #246fa8;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.col{
+    width: 300px;
+    height: 350px;
+    display: inline-block;
+
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+
+    transition: transform 0.5s;
+}
+
+.card1{
+    background-image: url("https://cdn.imgbin.com/10/8/20/imgbin-videotelephony-computer-icons-telephone-call-mobile-phones-conference-call-chat-mCBDm9CjaA1PaZZxGD5cYzYkB.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 140px;
+}
+
+.card2{
+    background-image: url("https://cdn.iconscout.com/icon/premium/png-512-thumb/screen-sharing-4-789936.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 140px;
+}
+.col:hover{
+    transform: translateY(-10px);
+}
+
+h5{
+    color: whitesmoke;
+    text-align: center;
+    font-size: medium;
+    text-shadow: 0 0 5px #999;
+}
+
+h1{
+    color: whitesmoke;
+    text-align: center;
+    font-size: larger;
+    text-shadow: 0 0 10px #999;
+}

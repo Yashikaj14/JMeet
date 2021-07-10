@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+<title>Screen Sharing Application</title>
+	<link rel="stylesheet" media="screen" type="text/css" href="screenshare.css">
+</head>
+<body>
+	<!-- Title & header of demo aplication. -->
+	<div class="container">
+		<h4 >Screen-share
+		</h4>
+	</div>
+
+	<div class="outer">
+
+	<!-- Other person's screen will show up here -->
+	<div class="col">
+		<h3 style="margin: 5px">Other Person's Screen</h3>
+		<video style="width: 70vh; height: 70vh;" id="remoteVideo"
+			poster="https://www.pngitem.com/pimgs/m/11-110995_circle-icons-computer-my-computer-round-icon-hd.png" autoplay></video>
+	</div>
+
+	<!-- Your screen will show up here. -->
+	<div class="col">
+		<h3 style="margin: 5px">Your Screen</h3>
+		<video  style="width: 70vh; height: 70vh;" id="localVideo"
+			poster="https://www.pngitem.com/pimgs/m/11-110995_circle-icons-computer-my-computer-round-icon-hd.png" autoplay muted></video>
+	</div>
+
+	<!-- Button to leave Screen Sharing. -->
+	<div class="box">
+		<button id="leaveButton" style="background-color: #008CBA; color: white; ">Leave Screen Sharing</button>
+	</div>
+	</div>
+	<script type="text/javascript" src="screenshare.js?reloads=true"></script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+<title>Video Conferencing Application</title>
+	<link rel="stylesheet" type="text/css" media="screen" href="conf.css">
+</head>
+<body>
+	<!-- Title & header of demo aplication. -->
+	<div class="container">
+		<h1 >Video Conferencing <br/>
+		</h1>
+	</div>
+
+
+<div class="row">
+	<!-- Other person's camera video will show up here -->
+	<div class="col card1">
+		<h3 >Other Person</h3>
+		<video id="remoteVideo"
+			poster="https://img.icons8.com/fluent/48/000000/person-male.png" autoplay></video>
+	</div>
+
+	<!-- Your camera video will show up here. -->
+	<div class="col card2">
+		<h3 >You</h3>
+		<video  id="localVideo"
+			poster="https://img.icons8.com/fluent/48/000000/person-male.png" autoplay muted></video>
+	</div>
+
+	<!-- Button to leave video conference. -->
+	<div class="box">
+		<button id="leaveButton" style="background-color: #008CBA; color: white; ">Leave Video Conference</button>
+	</div>
+
+</div>
+
+	<script type="text/javascript" src="conf.js?reloads=true"></script>
+
+</body>
+</html>
