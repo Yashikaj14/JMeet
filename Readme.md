@@ -78,6 +78,17 @@ JMeet is a meeting application designed under Microsoft Engage Mentorship Progra
 7. Now run the project in IntelliJ Idea. And you are good to go. 😊 
 
 ## `Snapshots`
+<div>
+<img  src="/assets/photo_1.png" width="40%" height="40%" alt="Snapshot" >  
+<img  src="/assets/photo_3.png" width="40%" height="40%" alt="Snapshot" hspace="20">
+<img src="/assets/photo_2.png" width="40%" height="40%" alt="Snapshot"  vspace="20">
+<img  src="/assets/photo_4.png" width="40%" height="40%" alt="Snapshot" hspace="20" vspace="20">
+<img  src="/assets/photo_5.png" width="40%" height="40%" alt="Snapshot" vspace="20"> 
+<img  src="/assets/photo_6.png" width="40%" height="40%" alt="Snapshot" hspace="20" vspace="20">
+<img  src="/assets/photo_7.png" width="40%" height="40%" alt="Snapshot"  vspace="20">
+  </div>
 
+
+ 
 ## `Contributor`
 [Yashika Jain](https://github.com/Yashikaj14)
