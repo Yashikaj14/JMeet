@@ -9,7 +9,7 @@ public class DBConnection {
 
     public DBConnection() {
         try {
-            connection = DriverManager.getConnection("jdbc:sqlite:C:/Users/HP/Downloads/TeamsCloneApp/TeamsCloneApp/teamData.sqlite");
+            connection = DriverManager.getConnection("jdbc:sqlite:C:/Users/HP/Downloads/TeamsCloneApp/JMeet/teamData.sqlite");
         } catch (SQLException se){
             se.printStackTrace();
         }

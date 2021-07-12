@@ -40,8 +40,7 @@ public class Main extends Application {
         primaryStage.setOnCloseRequest(new EventHandler<WindowEvent>() {
             @Override
             public void handle(WindowEvent windowEvent) {
-                System.out.println("Yha tk bhi nahi pahucha kya?");
-                System.out.println("Yha tk pahucha kya?");
+
                 if(Main.user!=null && Main.socket!=null){
                     LogoutRequest request = new LogoutRequest(Main.user);
                     try {

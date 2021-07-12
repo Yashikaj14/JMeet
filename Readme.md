@@ -28,8 +28,8 @@
 - User Interface: **`CSS`** **`HTML`**
 
 #### `Networking`
-- Main Application: `Java Sockets Programming`
-- WebRTC: `Web Sockets`
+- Main Application: **`Java Sockets Programming`**
+- WebRTC: **`Web Sockets`**
 
 #### `Other Tools`
 - IDE: **`IntelliJ Idea`**
