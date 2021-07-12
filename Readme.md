@@ -13,6 +13,7 @@
 
 
 ## `Introduction`
+JMeet is a meeting application designed under Microsoft Engage Mentorship Program 2021. It is a Java based application keeping computer software as target. It is a cross platform application which is supported by Windows, Linux and Mac. Following is the description of the application, hope you will like it! 😊
 
 ## `Features`
 ### `Basic Features`
