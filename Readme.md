@@ -1,4 +1,4 @@
-# Teams Clone
+# JMeet 
 
 <img src="/assets/teamslogo.png" height="100px" width="100px">
 
@@ -13,7 +13,7 @@
 
 
 ## `Introduction`
-JMeet is a meeting application designed under Microsoft Engage Mentorship Program 2021. It is a Java based application keeping computer software as target. It is a cross platform application which is supported by Windows, Linux and Mac. Following is the description of the application, hope you will like it! 😊
+JMeet is a meeting application designed under Microsoft Engage Mentorship Program 2021. It is a Java based application along with the help of WebRTC API. It is inspired by the Microsoft Teams Software. Following is the description of the application, hope you will like it! 😊
 
 ## `Features`
 ### `Basic Features`
@@ -58,7 +58,7 @@ JMeet is a meeting application designed under Microsoft Engage Mentorship Progra
 - VCS: **`Git`**
 
 
-### `Database-Structure`
+## `Database-Structure`
 
 | Table |Fields|
 |:-------:|:--------------------:|
@@ -69,3 +69,10 @@ JMeet is a meeting application designed under Microsoft Engage Mentorship Progra
 |notifications|sender_id, receiver_id, notifications, date, time, is_read|
 |online_users|user_id, user_ip|
 |statuses|user_id, status|
+
+## `Installation`
+
+## `Snapshots`
+
+## `Contributor`
+[Yashika Jain](https://github.com/Yashikaj14)
