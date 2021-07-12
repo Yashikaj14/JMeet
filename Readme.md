@@ -91,4 +91,4 @@ JMeet is a meeting application designed under Microsoft Engage Mentorship Progra
 
  
 ## `Contributor`
-[Yashika Jain](https://github.com/Yashikaj14)
+> [Yashika Jain](https://github.com/Yashikaj14)
