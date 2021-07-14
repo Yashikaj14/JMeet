@@ -11,28 +11,28 @@
 - [Snapshots](#Snapshots)  
 - [Contributor](#Contributor)  
 
+## `Demo Video Link`
+> https://youtu.be/1w4ij_D9VpY
 
 ## `Introduction`
-JMeet is a meeting application designed under Microsoft Engage Mentorship Program 2021. It is a Java based application along with the help of WebRTC API. It is inspired by the Microsoft Teams Software. Following is the description of the application, hope you will like it! 😊
+JMeet is a meeting application designed under Microsoft Engage Mentorship Program 2021. It is a Java based application built along with the help of WebRTC API. It is inspired by the Microsoft Teams Software. Following is the description of the application, hope you will like it! 😊
 
 ## `Features`
 ### `Basic Features`
 1. User will be able to signup and login to the application.
 2. User will be able to search for other users using their name, email or username and view their profile.
 3. Profile page for each user (profile status, username, company, contacts etc.).
-4. Users can set their status( Online, Away, In a Call, Offline, Busy).
-5. One can schedule meetings and url for the meeting will be generated.
+4. Users can set their status (Online, Away, In a Call, Offline, Busy).
+5. One can schedule meetings and URL for the meeting will be generated.
 6. The user can view all the upcoming meetings.
 7. User will be able to conduct a video chat with another user (video + sound).
 
 
 ### `Advanced Features`
-1. User is able to share his/her screen to other user.
-2. The user can share his/her audio, complete screen, a window or a browser tab.
+1. Users are able to share their screen to other user.
+2. The users can share their audio, complete screen, a window or a browser tab.
 3. Users are able to chat with each other by sending textmessages (like conversation window next to the video).
 4. The user will be notified about scheduled meetings, chat messages, and upcoming meetings.
-
-### `Future Scope`
 
 
 ## `Tech-Stack`
@@ -42,15 +42,15 @@ JMeet is a meeting application designed under Microsoft Engage Mentorship Progra
 - User Interface: **`JavaFX`** **`CSS`** **`XML`**
 
 #### `Server Side`
-- Programming Language **`Java`**
-- Database: **`SQLite3`** **`JDBC`**
+- Programming Language: **`Java`**
+- Database: **`SQLite`** **`JDBC`**
 
 #### `WebRTC API`
 - Programming Language: **`JavaScript`**
 - User Interface: **`CSS`** **`HTML`**
 
 #### `Networking`
-- Main Application: **`Java Sockets Programming`**
+- Main Application: **`Java Socket Programming`**
 - WebRTC: **`Web Sockets`**
 
 #### `Other Tools`
@@ -71,8 +71,26 @@ JMeet is a meeting application designed under Microsoft Engage Mentorship Progra
 |statuses|user_id, status|
 
 ## `Installation`
+1. Install the JDK version greater than 8. 
+2. Download JavaFX [(link)](https://gluonhq.com/download/javafx-11-0-2-sdk-windows/) and JDBC SQLite [(link)](https://github.com/xerial/sqlite-jdbc/releases/download/3.36.0.1/sqlite-jdbc-3.36.0.1.jar).
+3. Open as IntelliJ Idea project and change the [given settings](https://openjfx.io/openjfx-docs/).
+4. Add the above libraries to your project structure.
+5. Setup Apache Tomcat Server and paste the .war file into the webapps.
+6. Change the URL in DBConnection.java according to your database URL.
+7. Now run the project in IntelliJ Idea. And you are good to go. 😊 
 
 ## `Snapshots`
+<div>
+<img  src="/assets/photo_1.png" width="40%" height="40%" alt="Snapshot" >  
+<img  src="/assets/photo_3.png" width="40%" height="40%" alt="Snapshot" hspace="20">
+<img src="/assets/photo_2.png" width="40%" height="40%" alt="Snapshot"  vspace="20">
+<img  src="/assets/photo_4.png" width="40%" height="40%" alt="Snapshot" hspace="20" vspace="20">
+<img  src="/assets/photo_5.png" width="40%" height="40%" alt="Snapshot" vspace="20"> 
+<img  src="/assets/photo_6.png" width="40%" height="40%" alt="Snapshot" hspace="20" vspace="20">
+<img  src="/assets/photo_7.png" width="40%" height="40%" alt="Snapshot"  vspace="20">
+  </div>
 
+
+ 
 ## `Contributor`
-[Yashika Jain](https://github.com/Yashikaj14)
+> [Yashika Jain](https://github.com/Yashikaj14)
